@@ -1,0 +1,26 @@
+{
+    "name": "ndp/predict",
+    "description": "Predicts Time per record count",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noe",
+            "email": "ndepaz2016@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Ndp\\Predict\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ndp\\Predict\\PredictTimeServiceProvider"
+            ]
+        }
+    }
+}
